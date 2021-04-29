@@ -15,6 +15,13 @@ The preferred logo, containing both logomark and logotype.
 
 <img alt="Zig Logo" src="zig-logo-light.svg" width="300">
 
+### Web Version
+
+<img alt="Zig Logo" src="zig-logo-web.svg" width="300">
+
+* `zig-logo-web.svg` uses a css media query `prefers-color-scheme` to dynamically 
+  change the logotype fill color.
+
 ### Other Versions
 
  * `zig-logo-neg-black.svg` is for light backgrounds where color reproduction is not

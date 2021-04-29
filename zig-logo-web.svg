@@ -3,11 +3,11 @@
 :root { --color: #121212; }
 @media (prefers-color-scheme: light) { :root { --color: #121212; } }
 @media (prefers-color-scheme: dark) { :root { --color: #FFFFFF; } }
-.zig-name {
+.zig-logotype {
   fill: var(--color);
 }
 </style>
-<g fill="#F7A41D">
+<g class="zig-logomark" fill="#F7A41D">
 	<g>
 		<polygon points="46,22 28,44 19,30"/>
 		<polygon points="46,22 33,33 28,44 22,44 22,95 31,95 20,100 12,117 0,117 0,22" shape-rendering="crispEdges"/>
@@ -26,7 +26,7 @@
 		<polygon points="125,95 130,110 106,117"/>
 	</g>
 </g>
-<g class="zig-name">
+<g class="zig-logotype">
 	<g>
 		<polygon points="260,22 260,37 229,40 177,40 177,22" shape-rendering="crispEdges" />
 		<polygon points="260,37 207,99 207,103 176,103 229,40 229,37"/>
