@@ -17,10 +17,10 @@ The preferred logo, containing both logomark and logotype.
 
 ### Web Version
 
-<img alt="Zig Logo" src="zig-logo-web.svg" width="300">
-
-* `zig-logo-web.svg` uses a css media query `prefers-color-scheme` to dynamically 
-  change the logotype fill color.
+<picture>
+  <source srcset="zig-logo-dark.svg" media="(prefers-color-scheme: dark)">
+  <img src="zig-logo-light.svg>
+</picture>
 
 ### Other Versions
 
